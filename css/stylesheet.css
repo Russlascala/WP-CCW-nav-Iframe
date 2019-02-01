@@ -1,0 +1,125 @@
+@media screen and (min-width: 48em){
+    body{
+        text-align: justify;
+    }
+    }
+
+body {  overflow-x: hidden;}
+
+    .gallery .thumbnail { width:200px;
+    height:200px;
+    float:left;
+    text-align:center;
+    background:rgba(0, 0, 0, .8);
+    border:0px solid #999;
+    display:block;
+     margin:0 auto !important;
+     margin-left:17px !important;
+     margin-top:17px !important;
+     padding-top:35px;
+     padding-bottom:25px;
+     -webkit-border-radius: 167px;
+-moz-border-radius:167px;
+border-radius: 167px;
+    }
+    
+.gallery .thumbnail i    { color:#f37834;}
+    .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.gallery .thumbnail h4 { font-family: 'Signika', sans-serif; color:#f0f0f0;}
+
+
+table tr td { height:50px;
+padding-top:15px !important;
+ 
+ }
+table tr td:first-of-type { background: #fff !important; font-size:19px; padding-left:35px !important;
+  }
+table tr td:nth-of-type(2) { background: #EB6200!important; text-align:center; font-size:21px; color:#fff !important; }
+
+label { display:none;}
+input, select, button { height:45px !important; /* background:#fff !important; */}
+
+table {-webkit-box-shadow: 0px 0px 28px -4px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 28px -4px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 28px -4px rgba(0,0,0,0.51);}
+
+table tr
+{background: #f0f0f0 !important; border:none; font-family: 'Signika', sans-serif;}
+table thead
+{background: #4BABD6 !important; }    
+table tr td {  border:1px solid #333 !important;
+}    
+
+.button_2 { width:100%; background:#EB6200 !important; font-size:20px; font-weight:bold; outline:none; border:0px;
+color:#fff;  -webkit-box-reflect: below 1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) ,
+    to(rgba(250, 250, 250, 0.2))); }
+        .button_2:hover { background:#333 !important; color:#fff;} 
+
+    .form { border:1px solid #666 !important; -webkit-box-shadow: 0px 2px 12px 3px rgba(0,0,0,0.72);
+-moz-box-shadow: 0px 2px 12px 3px rgba(0,0,0,0.72);
+box-shadow: 0px 2px 12px 3px rgba(0,0,0,0.72);}
+
+.orange  { color:#EB6200; font-weight:bold;}
+.white { color:#fff;}
+
+.header-title {margin:10px 0 0 0 ;font-family: 'Signika', sans-serif; letter-spacing:-.5px; padding-top:35px;  color:#333; font-weight:normal; text-transform:uppercase; font-size:26px; text-align:right;}
+.middle-title {font-family: 'Signika', sans-serif; font-weight: bold;  color:#333;}
+.left-title {margin:0px; color:#f37935; letter-spacing:-1px; font-family: 'Signika', sans-serif; text-align:center;}
+
+     @media screen and (max-width: 786px){
+        .gallery .thumbnail { 
+    float: none !important; display:block !important; margin:15px auto !important;
+    } 
+    h1 .logo { max-width:190px !important; display:block; margin:0 auto;}
+    .form-group { margin-bottom:0px !important;}
+    input, select { margin-bottom:15px !important;}
+    .header-title {margin:0 auto ;font-family: 'Signika', sans-serif; letter-spacing:-.5px; padding-top:5px;  color:#333; font-weight:normal; text-transform:uppercase; font-size:20px; text-align:center;}
+    
+    .middle-title {font-family: 'Signika', sans-serif; font-size:23px;}
+.left-title {margin:0px; color:#f37935; letter-spacing:-1px; font-family: 'Signika', sans-serif; text-align:center; font-size:23px;}
+     }
+
+::-webkit-input-placeholder {
+    color:#333 !important; 
+}
+
+::-moz-placeholder {
+    color:#333 !important; 
+    opacity: 1;
+}
+
+::-ms-placeholder {
+    color:#333 !important; 
+}
+
+::placeholder {
+    color:#333 !important; 
+}
+
+
+input:focus::-webkit-input-placeholder { color:#999 !important; }
+input:focus::-moz-placeholder { color:#999 !important; }
+input:focus:-ms-input-placeholder { color:#999 !important; }
+input:focus::placeholder { color:#999 !important; }
+
+
+
+
+     input[type="text"]::-ms-clear,
+    input[type="password"]::-ms-clear,
+    input[type="email"]::-ms-clear,
+    input[type="tel"]::-ms-clear,
+    input[type="number"]::-ms-clear,
+    input[type="date"]::-ms-clear,
+    input[type="search"]::-ms-clear
+    
+    { display:none;width : 0;
+  height: 0;}
+  
+.error 
+    {
+    border:2px solid #C00 !important; color: #333;
+    }  
