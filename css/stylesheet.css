@@ -304,6 +304,7 @@ input:focus::placeholder { color:#999 !important; }
 }
 .articleLink a {
     color: #00745A;
+    font-weight:bold;
 }
 
 .articleLink a:hover {
