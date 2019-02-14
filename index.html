@@ -83,14 +83,14 @@
         <div class="row " style="background:#fff;">
             <div class="container ">
 
-                <div class="col-xs-12 col-md-4">
+                <!-- <div class="col-sm-12 col-md-4">
                     <h1><img src="images/logo.png" class="logo" style="max-width:100%;" /></h1>
-                </div>
-                <div class="col-md-8 col-xs-12 ">
+                </div> -->
+                <div class="col-sm-12 " id="navHeader">
 
                     <!-- Navigation Section  -->
 
-                    <nav class="navbar navbar-right">
+                    <nav class="navbar navbar-default">
                         <div class="container-fluid">
                             <div class="navbar-header">
                                 <!-- <span data-toggle="collapse" data-target="#myNavbar" class="navmenuTitle">Menu</span> -->
@@ -100,24 +100,24 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-
+                                <a class="navbar-left" href="#"><img src="images/logo.png" class="logo nav-logo img-responsive" style="max-width:100%;" /></a>
                             </div>
-                            <div class="collapse navbar-collapse" id="myNavbar">
+                            <div class="collapse navbar-collapse navLinks navbar-right" id="myNavbar">
                                 <ul class="nav navbar-nav">
-                                    <li>
+                                    <li class="active">
                                         <a href="index.html">Home</a>
                                     </li>
                                     <li>
                                         <a href="get-quote.html">Get a Quote</a>
                                     </li>
                                     <li>
-                                        <a href="#">FAQs</a>
+                                        <a href="faq.html">FAQs</a>
                                     </li>
                                     <li>
                                         <a href="about.html">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Latest News</a>
+                                        <a href="news.html">Latest News</a>
                                     </li>
                                 </ul>
                             </div>
@@ -129,10 +129,10 @@
             </div>
         </div>
 
-        <div class="bgColor" style="background-color:#DFE0DF;">
-            <div class="container">
-                <div class="row">
-                    <h4 class="text-center">Automobile owners can now 
+        <div class="bgColor">
+            <div class="row">
+                <div class="container">
+                    <h4 class="text-center" style="font-family: 'Signika', sans-serif;">Automobile owners can now 
                         <span style="color:#EB6200; font-weight: bold;">save up to 60% off</span> 
                         dealer service prices!</h4>
                 </div>
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
 
-                            <div class="row  ">
+                            <div class="row  form-group">
                                 <div class=" col-md-6">
 
                                     <select class="form-control" name="edit_model" id="edit_model" vtype="not_empty"
@@ -242,7 +242,7 @@
                                 </div>
                             </div>
 
-                            <div class="row ">
+                            <div class="row form-group">
                                 <div class=" col-md-6">
                                     <input type="tel" class="form-control" name="edit_phone" id="edit_phone"
                                         accept="true" title="Phone" maxlength="10" value="" placeholder="Phone" />
@@ -383,14 +383,14 @@
             </div>
 
             
-            <div class="col-md-12">
+            <div class="col-md-12" style="margin-bottom:30px;">
                 <div class="row" style="margin-top:30px;">
                     <p class="infoTxt">We, at <span class="nameStyle">Complete Car Warranty</span>, are all about saving Americans their hard earned money on one of the most expensive and critical
                     purchases in their lives. According to a recent AAA survey, 64 million American drivers could not pay for an unexpected
                     vehicle repair without going in to debt.</p>
                 </div>
-                <img src="images/car-repair.jpg" class="img-responsive center-block" style="max-width:800px;"> 
-                <div class="listWhatNeeed">
+                <img src="images/car-repair2.jpg" class="img-responsive center-block" style="max-width:800px; width:90%"> 
+                <div class="listWhatNeed">
                     <p class="infoTxt" style="text-align:center; margin-top:30px;">
                         Almost anyone can qualify for a Complete Car Warranty.
                         Here’s what you need:
@@ -416,9 +416,9 @@
             </div>
 
             <div>
-            <h3 class="" style="font-family: 'Signika', sans-serif;
+            <h3  style="font-family: 'Signika', sans-serif;
     font-weight: bold;
-    color: #333; text-align: center;">
+    color: #EB6200; text-align: center; font-size:30px;">
                 What People Say
             </h3>
             <div class="col-md-6 testContainer">
@@ -482,7 +482,10 @@
             </div>
         </div>
          
-
+        <div class="col-md-12">
+            <h1 class="text-center middle-title"> Ready to start saving money?</h1>
+            <a href="get-quote.html" class="btn btn-success getQuoteBtn">Get A Quote Today!</a>
+        </div>
 
             <div class="col-lg-12 ">
 
@@ -544,7 +547,7 @@
     </div>
 
 
-    </div>
+    
 
 
 
@@ -617,8 +620,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <!-- Custom Js -->
-    
-    <script src="js/script.js"></script>
+    <script src="js/chartscript.js"></script>
 
     <!--<noscript><img src='//create.leadid.com/noscript.gif?lac=c225f2e6-f60c-b10e-a931-5ee1838f1875&lck=af680003-9e38-1bce-c736-25aa778fad81&snippet_version=2' /></noscript>
 
