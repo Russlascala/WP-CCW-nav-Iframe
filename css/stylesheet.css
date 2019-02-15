@@ -249,6 +249,9 @@ input:focus::placeholder { color:#999 !important; }
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: #eb6200;
 }
+.accord-link{
+    display:block;
+}
 .getQuoteBtn{
     display: block;
     margin:0 auto;
